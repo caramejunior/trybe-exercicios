@@ -7,19 +7,21 @@
 .header{
     font-size: 20px;
     text-align: center;
-    background-color: brown;
 }
 nav {
     text-align: left;
-    background-color: black;
+    width: auto;
 }
 
 
 body{
-    background-color: white;
+    background-color:antiquewhite;
 }
 
-
+.table {
+    width: 15%;
+    background-color: white;
+}
 
 
 
@@ -27,4 +29,13 @@ img {
     width: 300px;
     padding: 5px;
     background-color: black;
+}
+
+
+.info {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
