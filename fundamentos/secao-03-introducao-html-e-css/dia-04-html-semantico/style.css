@@ -21,10 +21,13 @@ body{
 .table {
     width: 15%;
     background-color: white;
+    text-align: center;
 }
 
 
-
+section {
+    font-size: 18px;
+}
 img {
     width: 300px;
     padding: 5px;
