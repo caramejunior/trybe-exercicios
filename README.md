@@ -3,7 +3,7 @@
 Contém todos os conhecimentos adquiridos por mim durante minha tragetória na TRYBE. 
 Desenvolvimento de Software, Front-End, Back-End, Ciência da Computação, Metodologias Ágeis e Habilidades Comportamentais.
 
-/////
+..
 
 Fundamentos
 
