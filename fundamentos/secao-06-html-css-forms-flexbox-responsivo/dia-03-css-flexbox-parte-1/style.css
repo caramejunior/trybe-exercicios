@@ -30,7 +30,7 @@
   font-size: 25px;
 }
 
-.main-images {
+.section-images {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -40,4 +40,32 @@
 
 .images {
   width: 150px;
+}
+
+.images-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(209, 207, 207);
+  margin: 10px 10px;
+  width: 150px;
+  height: 200px;
+  box-shadow: 2px 3px rgba(19, 3, 3, 0.5);
+  border-radius: 15px;
+}
+
+h5 {
+  margin: 10px;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img-footer {
+  width: 25px;
+  margin-left: 10px;
 }
