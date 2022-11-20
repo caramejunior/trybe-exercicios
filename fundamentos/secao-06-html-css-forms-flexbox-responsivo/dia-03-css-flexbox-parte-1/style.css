@@ -12,7 +12,32 @@
     width: 100%;
   }
 
-  .header-img {
+.header-img {
     width: 70px;
-  }
+}
 
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.initial {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 100%;
+  font-size: 25px;
+}
+
+.main-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px auto 13px auto;
+  width: 50%;
+}
+
+.images {
+  width: 150px;
+}
