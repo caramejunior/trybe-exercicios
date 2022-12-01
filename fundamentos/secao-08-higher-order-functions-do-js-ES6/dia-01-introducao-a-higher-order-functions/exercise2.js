@@ -61,15 +61,8 @@ const books = [
     },
 ];
 
-// Adicione o código do exercício aqui:
 
-// 1 - Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
-
-const authorBornIn1947 = () => {
-    return books.find((book) => book.author.birthYear === 1947).author.name;
-}
-
-// 2 - Retorne o nome do livro com menor número de caracteres.
+// Retorne o nome do livro com menor número de caracteres.
 
 const smallerName = () => {
     let nameBook;
@@ -80,25 +73,4 @@ const smallerName = () => {
         }
     });
     return nameBook;
-}
-
-// 3 - Encontre o primeiro livro cujo nome possua 26 caracteres.
-
-const getNameBook = () => {
-    return books.find((book) => book.name.length === 26);
-}
-
-// 4 - Faça uma função que retorne true se todas as pessoas autoras tiverem nascido no século XX, ou false, caso contrário.
-
-const confersBirth = () => {
-    return books.every((book) => {
-        book.author.birthYear >= 1901 && book.author.birthYear <= 2000
-    });
-}
-console.log(confersBirth());
-
-// 5 - Faça uma função que retorne true, se algum livro tiver sido lançado na década de 80, e false, caso contrário.
-
-const confersDecade = () => {
-    return books.some((book) => book.releaseYear >= 1980 && book.releaseYear <= 1989);
 }
